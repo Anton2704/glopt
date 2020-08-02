@@ -1,0 +1,31 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/fonts';
+@import 'base/variables';
+
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/features';
+@import 'blocks/titles';
+@import 'blocks/work';
+@import 'blocks/lines';
+@import 'blocks/agent';
+@import 'blocks/delivery';
+@import 'blocks/scheme';
+@import 'blocks/feedback';
+@import 'blocks/question';
+@import 'blocks/map';
+@import 'blocks/footer';
+@import 'blocks/modal';

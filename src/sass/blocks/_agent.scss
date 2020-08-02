@@ -1,0 +1,47 @@
+.agent {
+  min-height: 342px;
+  background: url(../img/bg_2.jpg) center center/cover no-repeat;
+  padding: 58px 0 75px 0;
+  &__logo {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 102px;
+    height: 102px;
+  }
+  &__img {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-60%) translateX(-50%);
+    max-width: 50px;
+    max-height: 50px;
+  }
+  &__title {
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
+  }
+  &__text {
+    margin-top: 22px;
+    font-size: 19px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    @media (max-width: 1200px) {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    @media (max-width: 767px) {
+      font-size: 16px;
+    }
+  }
+
+}

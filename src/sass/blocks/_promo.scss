@@ -1,0 +1,124 @@
+.promo {
+  min-height: 680px;
+  background: url(../img/bg_1.jpg) center center/cover no-repeat;
+  padding: 23px 0 82px 0;
+  &__wrapper {
+    margin-top: 9px;
+  }
+  &__global {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    @media (max-width: 1200px) {
+      font-size: 18px;
+    }
+    @media (max-width: 767px) {
+      margin-top: 130px;
+    }
+  }
+  &__header {
+    margin-top: 26px;
+    font-size: 68px;
+    line-height: 68px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $main-color;
+    text-align: center;
+    @media (max-width: 1200px) {
+      font-size: 40px;
+    }
+    @media (max-width: 991px) {
+      font-size: 36px;
+    }
+    @media (max-width: 991px) {
+      font-size: 32px;
+    }
+    @media (max-width: 767px) {
+      font-size: 26px;
+    }
+  }
+  &__subheader {
+    margin-top: 9px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    @media (max-width: 1200px) {
+      font-size: 30px;
+    }
+    @media (max-width: 991px) {
+      font-size: 24px;
+    }
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
+  }
+  &__line {
+    display: block;
+    margin: 0 auto;
+    margin-top: 38px;
+    @media (max-width: 1200px) {
+      width: 70vw;
+    }
+  }
+  &__items {
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    @media (max-width: 1200px) {
+      margin: 0 auto;
+      max-width: 600px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+      align-content: center;
+    }
+    @media (max-width: 991px) {
+      flex-direction: column;
+    }
+    @media (max-width: 767px) { 
+      max-width: 250px;
+    }
+    
+    
+    
+  }
+  &__item {
+    width: 260px;
+    margin-right: 33px;  
+    @media (max-width: 991px) {
+      padding: 10px;
+    }
+    &:nth-child(2) {
+      @media (max-width: 1200px) {
+        margin-right: -5px;
+        margin-bottom: 10px;
+      }
+    }
+    &:last-child {
+      margin: 0;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 64px;
+      max-height: 64px;
+      
+    }
+    &_descr {
+      margin-top: 16px;
+      font-size: 16px;
+      font-weight: 300;
+      color: #ffffff;
+      text-align: center;
+      @media (max-width: 767px) {
+        font-size: 14px;
+      }
+     
+    }
+    }
+ }
