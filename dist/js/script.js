@@ -3,23 +3,25 @@ $(document).ready(function () {
         $('.header__burger,.header__menu').toggleClass('active');
         $('body').toggleClass('lock');
     });
+
+
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 2500) {
+            $('.pageup').fadeIn();
+        } else {
+            $('.pageup').fadeOut();
+        }
+    });
+    
+    $("a[href=#promo]").click(function(){
+        const _href = $(this).attr("href");
+        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+        return false;
+    });  
 });
 
-$(document).ready(function(){
-	$(window).scroll(function(){
-		if($(window).scrollTop()>120){
-			$('.pageup').fadeIn(900)
-		}else{
-			$('.pageup').fadeOut(700)
-		}
-	});
-});
 
-/* $("a[href=#promo]").click(function(){
-    const _href = $(this).attr("href");
-    $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
-    return false;
-}); */
 
 
 $('[data-modal=callback]').on('click', function() {
