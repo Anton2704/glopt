@@ -5,6 +5,22 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function(){
+	$(window).scroll(function(){
+		if($(window).scrollTop()>120){
+			$('.pageup').fadeIn(900)
+		}else{
+			$('.pageup').fadeOut(700)
+		}
+	});
+});
+
+/* $("a[href=#promo]").click(function(){
+    const _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+    return false;
+}); */
+
 
 $('[data-modal=callback]').on('click', function() {
       $('.overlay, #callback').fadeIn('slow');
@@ -46,4 +62,6 @@ $('[data-modal=callback]').on('click', function() {
   validateForms('#order form');
 
   $('input[name=tel]').mask("+7 (999) 999-99-99");
+
+
  
