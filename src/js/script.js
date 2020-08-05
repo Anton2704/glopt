@@ -63,7 +63,4 @@ $('[data-modal=callback]').on('click', function() {
   validateForms('#callback form');
   validateForms('#order form');
 
-  $('input[name=tel]').mask("+7 (999) 999-99-99");
-
-
- 
+  $('input[name=tel]').mask("+7 (999) 999-99-99");  

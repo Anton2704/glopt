@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 2500) {
+        if ($(this).scrollTop() > 1600) {
             $('.pageup').fadeIn();
         } else {
             $('.pageup').fadeOut();
@@ -63,7 +63,4 @@ $('[data-modal=callback]').on('click', function() {
   validateForms('#callback form');
   validateForms('#order form');
 
-  $('input[name=tel]').mask("+7 (999) 999-99-99");
-
-
- 
+  $('input[name=tel]').mask("+7 (999) 999-99-99");  

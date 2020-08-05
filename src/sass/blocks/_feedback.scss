@@ -3,12 +3,15 @@
   padding: 51px 0 65px 0;
 }
 .feedback {
+  &__items {
+    position: relative;
+    margin: 0 auto;
+  }
   &__item {
     max-width: 601px;
     margin-top: 31px;
     display: block;
-    margin: 0 auto; 
-
+    margin: 0 auto;
   }
   &__img {
     display: block;
