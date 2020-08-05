@@ -1,7 +1,9 @@
-.question {
+#question {
   min-height: 438px;
   padding: 62px 0 79px 0;
   background: url(../img/bg_4.jpg) center center/cover no-repeat;
+}
+.question {
   &__table {
     max-width: 896px;
     min-height: 297px;

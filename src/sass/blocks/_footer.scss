@@ -1,8 +1,10 @@
-.footer {
+#footer {
   min-height: 201px;
   background-color: #25333c;
   margin-top: -7px;
   padding: 24px 0 28px 0;
+}
+.footer {
   &__header {
     display: flex;
     justify-content: space-around;

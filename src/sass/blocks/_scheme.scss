@@ -1,7 +1,9 @@
-.scheme {
+#scheme {
   min-height: 454px;
   background-color: #f3f3f3;
   padding: 51px 0 66px 0;
+}
+.scheme {
   &__items {
     display: flex;
     justify-content: space-around;

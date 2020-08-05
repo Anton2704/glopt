@@ -8,8 +8,10 @@ iframe {
   }
 }
 
-.map {
+#map {
   position: relative;
+}
+.map {
   &__details {
     position: absolute;
     top: 5%;

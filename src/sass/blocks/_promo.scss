@@ -1,7 +1,9 @@
-.promo {
+#promo {
   min-height: 680px;
   background: url(../img/bg_1.jpg) center center/cover no-repeat;
   padding: 23px 0 82px 0;
+}  
+.promo {
   &__wrapper {
     margin-top: 9px;
   }
