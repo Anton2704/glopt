@@ -1,13 +1,11 @@
-#agent {
+#agent, #manager{
   min-height: 342px;
   background: url(../img/bg_2.jpg) center center/cover no-repeat;
   padding: 58px 0 75px 0;
 }
 
 #manager {
-  min-height: 342px;
   background: url(../img/bg_3.jpg) center center/cover no-repeat;
-  padding: 58px 0 75px 0;
 }
 .agent {
   &__logo {
