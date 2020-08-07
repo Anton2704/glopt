@@ -35,15 +35,15 @@
     &:nth-child(8) {
       margin-bottom: 0;
     }
-  }
-  &__img {
-    width: 60px;
-    height: 60px;
-    margin-right: 18px;
+    img {
+      width: 60px;
+      height: 60px;
+      margin-right: 18px;
+    }
   }
   &__descr {
     max-width: 447px;
-    &_title {
+    div:nth-child(1){
       font-size: 16px;
       font-weight: 700;
       color: #ec644b;
@@ -55,7 +55,7 @@
       }
       
     }
-    &_text {
+    div:nth-child(2) {
       font-size: 14px;
       font-weight: 300;
       color: #3a3a3a;

@@ -26,46 +26,45 @@ iframe {
       width: 60%;
       height: 60%;
     }
-  }
-  &__city {
-    font-size: 16px;
-    font-weight: 700;
-    color: $main-color;
-    @media (max-width: 767px) {
-      font-size: 12px;
+    address {
+      font-size: 14px;
+      font-weight: 300;
+      color: #3a3a3a;
+      @media (max-width: 767px) {
+        font-size: 12px;
+      }
+      div {
+        font-size: 16px;
+        font-weight: 700;
+        color: $main-color;
+        @media (max-width: 767px) {
+          font-size: 12px;
+        }
+      }
     }
-  }
-  &__address {
-    font-size: 14px;
-    font-weight: 300;
-    color: #3a3a3a;
-    @media (max-width: 767px) {
-      font-size: 12px;
+    a:nth-child(2) {
+      font-size: 14px;
+      font-weight: 300;
+      color: #3a3a3a;
+      @media (max-width: 767px) {
+        font-size: 12px;
+      }
+      &:hover {
+        text-decoration: none;
+        color: $main-color;
+      }
     }
-  }
-  &__tel {
-    font-size: 14px;
-    font-weight: 300;
-    color: #3a3a3a;
-    @media (max-width: 767px) {
-      font-size: 12px;
-    }
-    &:hover {
-      text-decoration: none;
+    a:last-child {
+      font-size: 14px;
+      font-weight: 300;
+      text-decoration: underline;
       color: $main-color;
+      @media (max-width: 767px) {
+        font-size: 12px;
+      }
+      &:hover {
+        color: $main-color;
+      }
     }
   }
-  &__email {
-    font-size: 14px;
-    font-weight: 300;
-    text-decoration: underline;
-    color: $main-color;
-    @media (max-width: 767px) {
-      font-size: 12px;
-    }
-    &:hover {
-      color: $main-color;
-    }
-  }
-
 }

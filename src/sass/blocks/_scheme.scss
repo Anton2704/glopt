@@ -38,24 +38,26 @@
         margin-right: 0;
       }
     }
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 60px;
+      max-height: 60px;
+    }
+    div:nth-child(2) {
+      margin-top: 12px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #ec644b;
+      text-align: center;
+    }
+    div:nth-child(3) {
+      font-size: 14px;
+      font-weight: 300;
+      color: #3a3a3a;
+      text-align: center;
+    }
   }
-  &__img {
-    display: block;
-    margin: 0 auto;
-    max-width: 60px;
-    max-height: 60px;
-  }
-  &__title {
-    margin-top: 12px;
-    font-size: 16px;
-    font-weight: 700;
-    color: #ec644b;
-    text-align: center;
-  }
-  &__descr {
-    font-size: 14px;
-    font-weight: 300;
-    color: #3a3a3a;
-    text-align: center;
-  }
+  
+  
 }

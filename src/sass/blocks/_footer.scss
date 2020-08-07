@@ -19,22 +19,22 @@
       max-width: 68px;
       max-height: 71px;
     }
-    
-  }
-  &__text {
-    align-self: center;
-    font-size: 16px;
-    font-weight: 700;
-    color: #ffffff;
-    margin-left: 23px;
-    margin-right: 250px;
-    @media (max-width: 991px) {
-      font-size: 14px;
+    div:nth-child(2) {
+      align-self: center;
+      font-size: 16px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-left: 23px;
+      margin-right: 250px;
+      @media (max-width: 991px) {
+        font-size: 14px;
+      }
+      @media (max-width: 767px) {
+        display: none;
+      }
     }
-    @media (max-width: 767px) {
-      display: none;
-    }
   }
+  
   &__line {
     display: block;
     margin: 0 auto;
@@ -59,24 +59,25 @@
       justify-content: center;
       align-items: center;
     }
-
-  }
-  &__copy {
-    margin-left: 15px;
-    font-size: 13px;
-    font-weight: 300;
-    color: rgba(255, 255, 255, 0.6);
-  }
-  &__policy {
-    margin-left: 30px;
-    font-size: 13px;
-    font-weight: 300;
-    text-decoration: underline;
-    color: $main-color;
-    @media (max-width: 767px) {
-      margin-top: 10px;
+    div:first-child {
+      margin-left: 15px;
+      font-size: 13px;
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.6);
+    }
+    a {
+      margin-left: 30px;
+      font-size: 13px;
+      font-weight: 300;
+      text-decoration: underline;
+      color: $main-color;
+      @media (max-width: 767px) {
+        margin-top: 10px;
+      }
     }
   }
+  
+  
   &__site {
     display: flex;
     justify-content: flex-end;
@@ -84,31 +85,14 @@
     @media (max-width: 767px) {
       margin-top: 10px;
     }
-  }
-  &__phone {
-    font-size: 19px;
-    font-weight: 700;
-    color: #ffffff;
-    &:hover {
-      text-decoration: none;
-      color: #ffffff;
-    } 
-    @media (max-width: 991px) {
-      font-size: 14px;
-      margin-left: -130px;
+    div:first-child {
+      font-size: 13px;
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.6);
+      
     }
-    @media (max-width: 767px) {
-      align-self: center;
-      font-size: 12px;
+    img {
+      margin-left: 3px;
     }
-  }
-  &__txt {
-    font-size: 13px;
-    font-weight: 300;
-    color: rgba(255, 255, 255, 0.6);
-    
-  }
-  &__logo {
-    margin-left: 3px;
   }
 }

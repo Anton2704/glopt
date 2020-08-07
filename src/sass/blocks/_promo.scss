@@ -4,69 +4,6 @@
   padding: 23px 0 82px 0;
 }  
 .promo {
-  &__wrapper {
-    margin-top: 9px;
-  }
-  &__global {
-    font-size: 24px;
-    line-height: 24px;
-    font-weight: 300;
-    color: #ffffff;
-    text-align: center;
-    @media (max-width: 1200px) {
-      font-size: 18px;
-    }
-    @media (max-width: 767px) {
-      margin-top: 130px;
-    }
-  }
-  &__header {
-    margin-top: 26px;
-    font-size: 68px;
-    line-height: 68px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: $main-color;
-    text-align: center;
-    @media (max-width: 1200px) {
-      font-size: 40px;
-    }
-    @media (max-width: 991px) {
-      font-size: 36px;
-    }
-    @media (max-width: 991px) {
-      font-size: 32px;
-    }
-    @media (max-width: 767px) {
-      font-size: 26px;
-    }
-  }
-  &__subheader {
-    margin-top: 9px;
-    text-align: center;
-    font-size: 36px;
-    line-height: 36px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #ffffff;
-    @media (max-width: 1200px) {
-      font-size: 30px;
-    }
-    @media (max-width: 991px) {
-      font-size: 24px;
-    }
-    @media (max-width: 767px) {
-      font-size: 20px;
-    }
-  }
-  &__line {
-    display: block;
-    margin: 0 auto;
-    margin-top: 38px;
-    @media (max-width: 1200px) {
-      width: 70vw;
-    }
-  }
   &__items {
     margin-top: 27px;
     display: flex;
@@ -85,9 +22,6 @@
     @media (max-width: 767px) { 
       max-width: 250px;
     }
-    
-    
-    
   }
   &__item {
     width: 260px;
@@ -111,7 +45,7 @@
       max-height: 64px;
       
     }
-    &_descr {
+    div {
       margin-top: 16px;
       font-size: 16px;
       font-weight: 300;
@@ -123,4 +57,69 @@
      
     }
     }
+  &__wrapper {
+    margin-top: 9px;
+    .global {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    @media (max-width: 1200px) {
+      font-size: 18px;
+    }
+    @media (max-width: 767px) {
+      margin-top: 130px;
+    }
+    }
+    h1 {
+    margin-top: 26px;
+    font-size: 68px;
+    line-height: 68px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $main-color;
+    text-align: center;
+    @media (max-width: 1200px) {
+      font-size: 40px;
+    }
+    @media (max-width: 991px) {
+      font-size: 36px;
+    }
+    @media (max-width: 991px) {
+      font-size: 32px;
+    }
+    @media (max-width: 767px) {
+      font-size: 26px;
+    }
+    }
+    h2 {
+    margin-top: 9px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    @media (max-width: 1200px) {
+      font-size: 30px;
+    }
+    @media (max-width: 991px) {
+      font-size: 24px;
+    }
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
+    }
+    img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 38px;
+    @media (max-width: 1200px) {
+      width: 70vw;
+    }
+  }
+  
+  
  }
+}

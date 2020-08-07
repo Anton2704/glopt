@@ -15,15 +15,15 @@
     border-radius: 100%;
     width: 102px;
     height: 102px;
-  }
-  &__img {
-    display: block;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-60%) translateX(-50%);
-    max-width: 50px;
-    max-height: 50px;
+    img {
+      display: block;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-60%) translateX(-50%);
+      max-width: 50px;
+      max-height: 50px;
+    }
   }
   &__title {
     margin-top: 20px;
